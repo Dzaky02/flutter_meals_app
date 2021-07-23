@@ -21,7 +21,9 @@ class CategoryMealsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(categoryTitle!),
       ),
-      body: Text('The recipes for the $categoryTitle category'),
+      body: ListView.builder(
+        itemBuilder: (context, index) => Text('List'),
+      ),
     );
   }
 }
