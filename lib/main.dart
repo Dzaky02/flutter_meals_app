@@ -18,15 +18,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.pink,
         accentColor: Colors.amber,
         canvasColor: Color.fromRGBO(255, 254, 229, 1),
-        primaryTextTheme: GoogleFonts.ralewayTextTheme().copyWith(
-          headline6: GoogleFonts.raleway(color: Colors.white),
-        ),
-        accentTextTheme: GoogleFonts.ralewayTextTheme(),
+        fontFamily: GoogleFonts.raleway().fontFamily,
         textTheme: GoogleFonts.ralewayTextTheme().copyWith(
-          bodyText1: GoogleFonts.raleway(
+          bodyText1: TextStyle(
             color: Color.fromRGBO(20, 51, 51, 1),
           ),
-          bodyText2: GoogleFonts.raleway(
+          bodyText2: TextStyle(
             color: Color.fromRGBO(20, 51, 51, 1),
           ),
           headline6: GoogleFonts.robotoCondensed(
