@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../screens//filters_screen.dart';
+import '../screens/filters_screen.dart';
 
 class MainDrawer extends StatelessWidget {
-  const MainDrawer({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Drawer(
