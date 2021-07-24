@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_meals_app/dummy_data.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import '../dummy_data.dart';
 
 class MealDetailScreen extends StatelessWidget {
   static const String routeName = '/meal-detail';
